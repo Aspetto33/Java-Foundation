@@ -315,3 +315,31 @@
 ​	④“对象.方法”或者“对象.属性”赋值
 
 ​	以上先后顺序：①——>②——>③——>④
+
+**21.this的使用**
+
+​	this可以用来修饰属性、方法、构造器
+
+​	this调用构造器
+
+​	public Person(){
+
+​		
+
+​	}
+
+​	public Person(int age){
+
+​		this();
+
+​		this.age = age;
+
+​	}
+
+​	public Person(int age,String name){
+
+​		this(age);
+
+​		this.name = name;
+
+​	}
